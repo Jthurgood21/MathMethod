@@ -23,7 +23,7 @@ namespace MathMethod
                 int multiplication = num1 * num2;
                 int division = num1 / num2;
 
-                // Ask user to select the operartion they want performed
+                // Ask user to select the operation they want performed
                 Console.WriteLine("1. Addition");
                 Console.WriteLine("2. Subtraction");
                 Console.WriteLine("3. Multiplication");
@@ -66,7 +66,7 @@ namespace MathMethod
         static void Main(string[] args)
         {
 
-            
+            // run operation based off user input
             MyMethod(4);
         }
     }
